@@ -16,7 +16,7 @@ Pypi [https://pypi.org/project/tkinterAsync/](https://pypi.org/project/tkinterAs
 ## Example code
 
 The code is inside `test/example.py` file:
-```
+```Python
 
 import sys
 import os.path
@@ -55,7 +55,7 @@ for i in range(1000):
 ### How to use?
 
 Create your Tkinter default function or class:
-```
+```Python
 
 import tkinter as tk
 
@@ -72,7 +72,7 @@ def App():
 ```
 
 But in this case you don't need to import Tkinter, beacause the module pass the Tkinter module into the function
-```
+```Python
 
 def App(root, tk, ttk): # <------ LOOK HERE! CHANGE THE NAME IF YOU WANT <app>, <tkinter>, <ttk>
 
@@ -82,7 +82,7 @@ def App(root, tk, ttk): # <------ LOOK HERE! CHANGE THE NAME IF YOU WANT <app>, 
 ```
 
 And then call the class passing the function like params
-```
+```Python
 from src.tkinterAsync import Tkinter
 # or
 # from tkinterAsync import Tkinter
