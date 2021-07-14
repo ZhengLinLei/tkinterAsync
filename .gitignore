@@ -1,0 +1,5 @@
+__pycache__
+tkinterAsync.egg-info
+dist
+.pypirc
+build
