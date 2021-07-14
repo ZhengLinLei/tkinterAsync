@@ -104,5 +104,5 @@ Let us know when you found an issue
 ### Love this repo? Give us a star ⭐
 
 <a href="./">
-  <img src="https://img.shields.io/badge/Kronus.py-Rate-blue">
+  <img src="https://img.shields.io/badge/TkinterAsync-Rate-blue">
 </a>
